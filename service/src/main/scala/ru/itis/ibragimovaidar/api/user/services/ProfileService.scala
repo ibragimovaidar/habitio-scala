@@ -5,7 +5,7 @@ import java.time.LocalDateTime
 import cats.effect.IO
 import ru.itis.ibragimovaidar.api.user.converters.UserConverters._
 import ru.itis.ibragimovaidar.api.user.errors.{ChangePasswordError, WrongOldPasswordError}
-import ru.itis.ibragimovaidar.api.user.http.json.UserProfileResponse
+import ru.itis.ibragimovaidar.api.user.http.dto.UserProfileResponse
 import ru.itis.ibragimovaidar.api.user.repository.UserRepository
 
 class ProfileService(userRepository: UserRepository) {

@@ -10,7 +10,7 @@ import io.circe.generic.auto._
 import org.http4s.server.AuthMiddleware
 import ru.itis.ibragimovaidar.api.user.errors.UserNotFound
 import ru.itis.ibragimovaidar.api.user.http.authentication.UserInfo
-import ru.itis.ibragimovaidar.api.user.http.json.UpdateUserRequest
+import ru.itis.ibragimovaidar.api.user.http.dto.UpdateUserRequest
 import ru.itis.ibragimovaidar.api.user.services.UserService
 import ru.itis.ibragimovaidar.api.user.validation.user
 import ru.itis.ibragimovaidar.api.user.validation.user.UpdateUserValidation

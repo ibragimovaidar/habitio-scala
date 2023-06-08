@@ -3,7 +3,7 @@ package ru.itis.ibragimovaidar.api.user.http.routes
 import cats.data.NonEmptyChain
 import cats.effect.IO
 import org.http4s.HttpRoutes
-import ru.itis.ibragimovaidar.api.user.http.json.{ErrorItem, ErrorsResponse}
+import ru.itis.ibragimovaidar.api.user.http.dto.{ErrorItem, ErrorsResponse}
 import ru.itis.ibragimovaidar.api.user.validation.DomainValidation
 
 trait BaseRoutes {

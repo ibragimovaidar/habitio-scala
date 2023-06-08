@@ -1,7 +1,7 @@
 package ru.itis.ibragimovaidar.api.user.http.authentication
 
 import cats.effect.IO
-import ru.itis.ibragimovaidar.api.user.http.json.{ErrorItem, ErrorsResponse}
+import ru.itis.ibragimovaidar.api.user.http.dto.{ErrorItem, ErrorsResponse}
 import ru.itis.ibragimovaidar.api.user.repository.UserRepository
 
 final class BasicAuthentication(val userRepository: UserRepository) extends Authentication {

@@ -8,7 +8,7 @@ import org.http4s.dsl.io._
 import org.http4s.server.AuthMiddleware
 import io.circe.generic.auto._
 import org.http4s.circe.CirceEntityEncoder._
-import ru.itis.ibragimovaidar.api.user.http.json.{ErrorItem, ErrorsResponse}
+import ru.itis.ibragimovaidar.api.user.http.dto.{ErrorItem, ErrorsResponse}
 import ru.itis.ibragimovaidar.api.user.repository.UserRepository
 
 trait Authentication extends LazyLogging {

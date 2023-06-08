@@ -1,4 +1,4 @@
-package ru.itis.ibragimovaidar.api.user.http.json
+package ru.itis.ibragimovaidar.api.user.http.dto
 
 case class UserProfileResponse(
     id: Int,

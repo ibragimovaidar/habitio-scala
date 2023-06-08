@@ -10,7 +10,7 @@ import org.scalatest.wordspec.AnyWordSpec
 import io.circe.generic.auto._
 import org.http4s.circe.CirceEntityEncoder._
 import ru.itis.ibragimovaidar.api.user.http.authentication.UserInfo
-import ru.itis.ibragimovaidar.api.user.http.json.ErrorsResponse
+import ru.itis.ibragimovaidar.api.user.http.dto.ErrorsResponse
 
 trait SpecBase extends AnyWordSpec with Matchers {
   protected val UserId = 1

@@ -7,7 +7,7 @@ import org.http4s.circe._
 import org.http4s.dsl.io._
 import io.circe.generic.auto._
 import org.scalatest.EitherValues
-import ru.itis.ibragimovaidar.api.user.http.json.SearchUsersResponse
+import ru.itis.ibragimovaidar.api.user.http.dto.SearchUsersResponse
 import ru.itis.ibragimovaidar.user.api.test.end.common.JsonBuilder
 
 class UserApiSpec extends SpecBase with EitherValues {

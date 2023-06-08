@@ -4,7 +4,7 @@ import java.sql.Timestamp
 import java.time.LocalDateTime
 
 import ru.itis.ibragimovaidar.api.user.domain.User
-import ru.itis.ibragimovaidar.api.user.http.json.{CreateUserRequest, SearchUserItem, UserDetailResponse, UserProfileResponse}
+import ru.itis.ibragimovaidar.api.user.http.dto.{CreateUserRequest, SearchUserItem, UserDetailResponse, UserProfileResponse}
 import ru.itis.ibragimovaidar.api.user.util.StringUtils
 
 object UserConverters {

@@ -10,7 +10,7 @@ import org.http4s.circe._
 import org.http4s.headers.Location
 import ru.itis.ibragimovaidar.api.user.config.ServiceConfig
 import ru.itis.ibragimovaidar.api.user.errors.UserNameAlreadyInUse
-import ru.itis.ibragimovaidar.api.user.http.json.CreateUserRequest
+import ru.itis.ibragimovaidar.api.user.http.dto.CreateUserRequest
 import ru.itis.ibragimovaidar.api.user.services.UserService
 import ru.itis.ibragimovaidar.api.user.validation.user
 import ru.itis.ibragimovaidar.api.user.validation.user.CreateUserValidation

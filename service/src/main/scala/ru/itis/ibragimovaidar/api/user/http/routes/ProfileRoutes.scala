@@ -10,7 +10,7 @@ import io.circe.generic.auto._
 import org.http4s.circe._
 import ru.itis.ibragimovaidar.api.user.errors.WrongOldPasswordError
 import ru.itis.ibragimovaidar.api.user.http.authentication.UserInfo
-import ru.itis.ibragimovaidar.api.user.http.json.{ChangePasswordRequest, ErrorItem, ErrorsResponse}
+import ru.itis.ibragimovaidar.api.user.http.dto.{ChangePasswordRequest, ErrorItem, ErrorsResponse}
 import ru.itis.ibragimovaidar.api.user.services.ProfileService
 import ru.itis.ibragimovaidar.api.user.validation.user
 import ru.itis.ibragimovaidar.api.user.validation.user.ChangePasswordValidation

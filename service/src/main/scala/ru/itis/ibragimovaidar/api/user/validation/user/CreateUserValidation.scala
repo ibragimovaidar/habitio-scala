@@ -1,7 +1,7 @@
 package ru.itis.ibragimovaidar.api.user.validation.user
 
 import cats.syntax.contravariantSemigroupal._
-import ru.itis.ibragimovaidar.api.user.http.json.CreateUserRequest
+import ru.itis.ibragimovaidar.api.user.http.dto.CreateUserRequest
 
 object CreateUserValidation extends UserValidator {
 

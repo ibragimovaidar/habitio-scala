@@ -2,7 +2,7 @@ package ru.itis.ibragimovaidar.api.user.data
 
 import java.sql.Timestamp
 import ru.itis.ibragimovaidar.api.user.domain.User
-import ru.itis.ibragimovaidar.api.user.http.json.{CreateUserRequest, SearchUserItem, UpdateUserRequest, UserDetailResponse, UserProfileResponse}
+import ru.itis.ibragimovaidar.api.user.http.dto.{CreateUserRequest, SearchUserItem, UpdateUserRequest, UserDetailResponse, UserProfileResponse}
 import ru.itis.ibragimovaidar.api.user.util.StringUtils
 
 import scala.util.Random

@@ -6,7 +6,7 @@ import cats.effect.IO
 import com.typesafe.scalalogging.LazyLogging
 import ru.itis.ibragimovaidar.api.user.converters.UserConverters._
 import ru.itis.ibragimovaidar.api.user.errors.{CreateUserError, GenericError, UserNameAlreadyInUse, UserNotFound}
-import ru.itis.ibragimovaidar.api.user.http.json.{CreateUserRequest, SearchUsersResponse, UpdateUserRequest, UserDetailResponse}
+import ru.itis.ibragimovaidar.api.user.http.dto.{CreateUserRequest, SearchUsersResponse, UpdateUserRequest, UserDetailResponse}
 import ru.itis.ibragimovaidar.api.user.repository.UserRepository
 import ru.itis.ibragimovaidar.api.user.util.StringUtils
 

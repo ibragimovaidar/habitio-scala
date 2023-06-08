@@ -1,0 +1,45 @@
+### signUp
+POST localhost:8080/api/0.1/signUp
+Content-Type: application/json
+
+{
+"firstname": "Aydarr",
+"lastname": "Ibragimovv",
+"email": "ibragimovaidarp2@gmail.com",
+"password": "qwerty007",
+"dateOfBirth": "30-07-2002",
+"gender": "male"
+}
+
+
+### Profile activate
+POST localhost:8080/api/0.1/profile/activate
+Authorization: Basic aWJyYWdpbW92YWlkYXJwQGdtYWlsLmNvbTphaWRhcjU2Nw==
+
+### Change password
+PUT localhost:8080/api/0.1/profile/password
+Content-Type: application/json
+Authorization: Basic aWJyYWdpbW92YWlkYXJwQGdtYWlsLmNvbTphaWRhcjU2Nw==
+
+{
+  "oldPassword": "aidar567",
+  "newPassword": "qwerty567"
+}
+
+### Profile get
+GET localhost:8080/api/0.1/profile
+Authorization: Basic aWJyYWdpbW92YWlkYXJwQGdtYWlsLmNvbTphaWRhcjU2Nw==
+
+### User get by id
+
+GET localhost:8080/api/0.1/users/1
+Authorization: Basic aWJyYWdpbW92YWlkYXJwQGdtYWlsLmNvbTphaWRhcjU2Nw==
+
+### Users search
+GET localhost:8080/api/0.1/users?search=I
+Authorization: Basic aWJyYWdpbW92YWlkYXJwQGdtYWlsLmNvbTphaWRhcjU2Nw==
+
+
+
+###
+GET localhost:8080/api/0.1/version

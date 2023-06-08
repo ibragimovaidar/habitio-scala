@@ -13,7 +13,7 @@ import org.scalatest.{BeforeAndAfterEach, EitherValues, OptionValues}
 import ru.itis.ibragimovaidar.api.user.SpecBase
 import ru.itis.ibragimovaidar.api.user.data.UserDataGenerator
 import ru.itis.ibragimovaidar.api.user.errors.UserNotFound
-import ru.itis.ibragimovaidar.api.user.http.json.SearchUsersResponse
+import ru.itis.ibragimovaidar.api.user.http.dto.SearchUsersResponse
 import ru.itis.ibragimovaidar.api.user.services.UserService
 
 import scala.util.Random
